@@ -1,0 +1,17 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "Loan assignment script",
+  "private": true,
+  "scripts": {
+    "start": "yarn clean && node src/index.js",
+    "clean": "rm -rf assignments.csv && rm -rf yields.csv",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gareth D",
+  "license": "ISC",
+  "dependencies": {
+    "@fast-csv/format": "^4.3.5",
+    "csvtojson": "^2.0.10"
+  }
+}
