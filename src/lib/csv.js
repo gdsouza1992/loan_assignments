@@ -1,4 +1,3 @@
-const path = require('path');
 const csv_reader = require('csvtojson')
 const { writeToPath } = require('@fast-csv/format');
 
